@@ -1,0 +1,59 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<head>    
+    <title>New Patient</title>    
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+   
+</head>    
+</head>  
+<body>  
+<form action="patientdb.php" method="post">  
+  <div class="container">  
+  <center>  <h1>New Patient Entry</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="fname" placeholder= "Enter Your First Name" size="15" required />     
+<label> Lastname: </label>    
+<input type="text" name="lname" placeholder="Enter Your Last Name" size="15"required /> 
+  
+
+<label><b>Birthday</b></label>
+<input type="date" id="birthday" name="birthday">
+
+
+</label>Phone :</label>  
+<input type="text" placeholder="Enter Phone #" name="phone" > 
+ 
+ <label ><b>Gender</b></label>  
+ <input type="text" placeholder="Enter Your Gender" name="gender" required>
+  
+  <label ><b>City</b></label>  
+ <input type="text" placeholder="Enter Your City" name="city" required>
+ 
+ <label ><b>Province</b></label>  
+ <input type="text" placeholder="Enter Your province" name="province" required> 
+ 
+ <label ><b>Address</b></label>  
+ <input type="text" placeholder="Enter Your Address" name="address" required> 
+ 
+<label ><b>Postal Code</b></label>  
+ <input type="text" placeholder="Enter Your Postal Code" name="postalcode" required> 
+
+  <label><b>Current Medication</b></label>
+<textarea name="curr_med" rows="4" cols="50"></textarea>
+
+  <label><b>Allergies</b></label>
+<textarea name="allergies" rows="4" cols="50"></textarea>
+
+<label><b>Reffering Doctor</b></label>  
+ <input type="text" placeholder="Enter Your refered doctor" name="refdoc" required>  
+
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Your Email ID" name="emailid" required>  
+
+    <button type="submit" class="submitbtn">Sign Up</button>    
+</form>  
+</body>  
+</html>  
